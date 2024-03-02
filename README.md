@@ -1,4 +1,4 @@
-# Article Summarizer using Sumz GPT
+# Sumz GPT
 
 ![Demo](demo.gif)
 
