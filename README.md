@@ -25,8 +25,7 @@ Check out the [live demo](https://main--extraordinary-dieffenbachia-ea4d5f.netli
 6. Enter the URL of the article you want to summarize and click "GO".
 7. Optionally, clear the history using the "Clear History" button.
 
-## API Implementation Details 
-[blog post](https://pixeljets.com/blog/gpt-summary-is-broken/).
+
 
 ## Credits
 
