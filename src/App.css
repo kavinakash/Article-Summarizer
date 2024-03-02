@@ -68,6 +68,18 @@
     padding: 0;
   }
 }
+.clear_history_btn {
+  background-color: #f11e1ea9; /* Red background color */
+  color: #ffffff; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Add curved edges */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.clear_history_btn:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
 
 /* Tailwind Styles */
 

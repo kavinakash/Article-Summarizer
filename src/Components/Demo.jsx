@@ -59,7 +59,15 @@ const Demo = () => {
       handleSubmit(e);
     }
   };
-
+  // Function to clear history
+  const handleClearHistory = () => {
+    setAllArticles([]);
+    // setArticle({
+    //   url: "",
+    //   summary: "",
+    // });
+    localStorage.removeItem("articles");
+  };
   return (
     <section className='mt-16 w-full max-w-xl'>
       {/* Search */}
@@ -90,6 +98,14 @@ const Demo = () => {
             <p>GO</p>
           </button>
         </form>
+        {allArticles.length > 0 && (
+          <button
+            className="clear_history_btn"
+            onClick={handleClearHistory}
+          >
+            Clear History
+          </button>
+        )}
         {/* HISTORY */}
         <div className='flex flex-col gap-1 max-h-60 overflow-y-auto'>
           {allArticles.reverse().map((item, index) => (
