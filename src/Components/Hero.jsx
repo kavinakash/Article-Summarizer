@@ -1,4 +1,4 @@
-import {logo} from '../assets';
+import { logo } from '../assets';
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
         </nav>
     <h1 className='head_text'>
         Summarize Articles with <br className='max-md:hidden' />
-        <span className='orange_gradient'>Sumz GPT</span>
+        <span className='green_gradient'>Sumz GPT</span>
     </h1>
     <h2 className='desc'>
         Artical summarizer which converts the 
